@@ -3,15 +3,19 @@
 
 def head(input_list):
     """Return the first item of the input list.
-
+        
     For example:
 
       >>> head(['Jan', 'Feb', 'Mar'])
       'Jan'
     """
 
-    return None
+    return input_list[0]
 
+#     for months in input_list:
+#         return input_list[0]
+   
+# print(head(['Jan', 'Feb', 'Mar']))
 
 def tail(input_list):
     """Return a new list of all items, excluding the first item.
@@ -23,7 +27,7 @@ def tail(input_list):
 
     """
 
-    return []
+    return input_list[1:]
 
 
 def last(input_list):
@@ -36,7 +40,7 @@ def last(input_list):
 
     """
 
-    return []
+    return input_list[-1]
 
 
 def top(input_list):
@@ -49,7 +53,7 @@ def top(input_list):
 
     """
 
-    return []
+    return input_list[:-1]
 
 
 def first_three(input_list):
@@ -62,7 +66,7 @@ def first_three(input_list):
 
     """
 
-    return []
+    return input_list[:3]
 
 
 def last_five(input_list):
@@ -75,7 +79,7 @@ def last_five(input_list):
 
     """
 
-    return []
+    return input_list[-1:-6:]
 
 
 def middle(input_list):
